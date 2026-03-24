@@ -2,6 +2,11 @@
 
 Proyecto de automatización de pruebas utilizando Python y Selenium.
 
+## Autor
+
+Joel Rodríguez
+QA Automation Trainee
+
 ## Descripción
 
 Este script automatiza el proceso de login en SauceDemo y valida que la página cargue correctamente mediante la verificación de productos.
@@ -32,3 +37,4 @@ El script mostrará en consola:
 
 * "Login exitoso"
 * Número de productos encontrados
+
