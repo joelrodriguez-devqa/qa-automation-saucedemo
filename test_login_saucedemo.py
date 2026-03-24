@@ -2,6 +2,9 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 
+#INICIO
+print("Iniciando prueba automatizada...")
+
 driver = webdriver.Chrome()
 
 driver.get("https://www.saucedemo.com/")
@@ -29,6 +32,9 @@ if len(products) > 0:
     print("La página cargó correctamente")
 else:
     print("Error: no hay productos")
+
+#FINAL
+print("Prueba finalizada")
 
 time.sleep(5)
 
